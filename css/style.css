@@ -1,0 +1,662 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  width: 100%;
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #111111;
+  font-size: 15px;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  margin: 20px 0;
+}
+
+h1{
+  font-size: 38px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+.container, .containerr{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header{
+  background-color: #4574ac;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #122d5a;
+  width: 100%;
+}
+
+header img{
+  float: left;
+  margin-right: 10px;
+}
+
+.logo{
+  font-family: 'Roboto Slab', serif;
+  color: #fbfdff;
+  /*width: 400px;*/
+  float: left;
+  margin: 25px 0 25px 150px;
+}
+
+.logo .elso-sor{
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.logo .masodik-sor{
+  font-size: 30px;
+  margin-left: 180px;
+}
+
+nav{
+  font-size: 14pt;
+  float: right;
+  margin-right: 200px;
+}
+
+nav ul li{
+  margin-top: 60px;
+  float: left;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: #fbfdff;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover{
+  color: #122d5a;
+}
+
+#main{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#nagykep{
+  background: url("../images/fejlec.jpg") center 0 no-repeat scroll;
+  height: 300px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #122d5a;
+}
+
+#nagykep p{
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+}
+
+#nagykep .doboz{
+  background-color: RGBA(0,0,0,0.6);
+  width: 815px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 145px;
+  margin-bottom: 5px;
+  border: 2px #ffffff solid;
+}
+
+#nagykep .doboz .elso-sor{
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#nagykep .doboz .masodik-sor{
+  margin-top: 10px;
+}
+
+#elonyeim .ikon-1, #elonyeim .ikon-2{
+  float: left;
+  width: 400px;
+}
+
+#elonyeim .ikon-3{
+  float: right;
+  width: 400px;
+}
+
+#elonyeim{
+  background-color: #c0cee0;
+  padding-bottom: 50px;
+}
+
+#elonyeim .ikon p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #4574ac;
+}
+
+#elonyeim h2{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #00163a;
+}
+
+#bemutatkozas p{
+  width: 380px;
+}
+
+#bemutatkozas{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3efef;
+  width: 380px;
+  float: left;
+  padding: 10px;
+  min-height: 480px;
+}
+
+#bemutatkozas h2{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+}
+
+#szolgaltatasaim{
+  background-color: #f3efef;
+  width: 780px;
+  float: left;
+  padding: 10px;
+  min-height: 480px;
+}
+
+#szolgaltatasaim h2{
+  text-align: left;
+  font-size: 25px;
+}
+
+#szolgaltatasaim h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #00163a;
+  text-align: center;
+  font-size: 20px;
+}
+
+.kerteshazak, .panelhazak{
+  float: left;
+}
+
+.panelhazak{
+  margin-left: 30px;
+}
+
+.panelhazak p, .kerteshazak p{
+  font-size: 15px;
+  margin: 20px 0;
+  width: 360px;
+}
+
+#szolgaltatasaim .gomb{
+  margin: 10px 0;
+}
+
+#szolgaltatasaim .gomb a{
+  font-family: 'Roboto Slab', serif;
+  background-color: #00163a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#szolgaltatasaim .gomb a:hover{
+  background-color: #31538b;
+}
+
+.velemeny{
+  width: 540px;
+}
+
+.velemeny-1{
+  float: left;
+}
+
+.velemeny-2{
+  float: right;
+}
+
+.velemeny img{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.velemeny p{
+  margin-top: 50px;
+}
+
+.velemeny p span{
+  font-size: 20px;
+}
+
+#call-to-action{
+  background-color: #122d5a;
+  text-align: center;
+}
+
+#call-to-action p.felhivas{
+  font-size: 35px;
+  color: #ffffff;
+  float: left;
+  text-transform: uppercase;
+  margin: 40px;
+  font-weight: 700;
+}
+
+#call-to-action p.gomb{
+  float: right;
+}
+
+#call-to-action .gomb{
+  margin: 40px;
+}
+
+#call-to-action .gomb a{
+  font-family: 'Roboto Slab', serif;
+  background-color: #4574ac;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#call-to-action .gomb a:hover{
+  background-color: #f3efef;
+  color: #122d5a;
+}
+
+footer{
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: #4574ac;
+  padding: 10px 0;
+}
+
+footer p{
+  color: #ffffff;
+}
+
+footer .copyright, .copyrightt{
+  float: left;
+}
+
+footer .copyright p, .copyrightt p{
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+footer .keszitette{
+  float: right;
+}
+
+footer .keszitette p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+#kozep img{
+  float: right;
+  margin-left: 10px;
+  border: 1px solid #4574ac
+}
+
+#kozep{
+  margin-bottom: 20px;
+}
+
+#kozep h3{
+  text-align: left;
+}
+
+#kozep p{
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.galeria{
+  padding-top: 20px;
+
+}
+
+#kozep .galeria img{
+  margin: 0px 4px;
+  padding: 0;
+  border: 1px solid #4574ac;
+  float: left;
+}
+
+#hosszubemutatkozas{
+  font-size: 13pt;
+}
+
+#gombok{
+  margin: 150px auto;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#bal{
+  width: 500px;
+  height: 333px;
+}
+
+#jobb{
+  width: 500px;
+  height: 333px;
+}
+#kisszoveg{
+  font-size: 12px;
+  color: gray;
+  margin:10px;
+}
+label{
+  margin:20px
+}
+#phone{
+  margin:0px;
+  margin-left: 20px;
+}
+
+.bfooter{
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  background-color: #4574ac;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.bfooter p{
+  color: #ffffff;
+}
+
+.bfooter .copyright, .copyrightt{
+  float: left;
+}
+
+.bfooter .copyright p, .copyrightt p{
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.bfooter .keszitette{
+  float: right;
+}
+
+.bfooter .keszitette p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+#page-container{
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap{
+  padding-bottom: 40px;
+}
+#bekuldes, #vissza{
+  width: 100px;
+  height: 30px;
+  margin: 20px auto;
+}
+#bekuldesSzoveg{
+  font-size: 40px;
+  text-align: center;
+}
+#bekuldDiv{
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#visszaafooldalra{
+  color: #4574ac;
+}
+
+#visszaafooldalra:hover{
+  color: #00163a;
+}
+
+#visszajelzes{
+  text-align: center;
+  color: #122d5a;
+  background-color: #fff;
+}
+.mobile-menu-button{
+  display: block;
+  width: 30px;
+  float: right;
+  border: 1px solid white;
+  padding: 10px;
+}
+#mobile-menu{
+  display: none;
+}
+
+.mobile-menu-button span{
+  display: block;
+  height: 4px;
+  background-color: white;
+  margin: 0 0 5px 0;
+}
+.mobile-menu-button span:last-of-type{
+ margin: 0;
+}
+@media (max-width:1200px){
+  
+  .container, .containerr{
+    width: 900px;
+  }
+  .page-container{
+    max-width: 900px;
+  }
+  #call-to-action p.felhivas{
+    font-size: 25px ;
+  }
+  #call-to-action .gomb a{
+    font-size: 20px;
+    padding: 10px 5px;
+    font-weight: 500;
+  }
+  .logo{
+    margin:15px 0;
+  }
+  .logo .elso-sor{
+    font-size: 27px;
+    margin-top: 10px;
+  }
+  .logo .masodik-sor{
+    font-size: 20px;
+    margin-left: 140px;
+  }
+  #bal{
+    width: 300px;
+  }
+  
+  #jobb{
+    width: 300px;
+  }
+  #gombok{
+    margin:100px auto;
+  }
+  #elonyeim .ikon-1, #elonyeim .ikon-2, #elonyeim .ikon-3 {
+    float: none;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .main{
+    width: 800px;
+  }
+  #bemutatkozas{
+    float: none;
+    margin: auto;
+  }
+  #szolgaltatasaim{
+    margin: auto;
+    float: none;
+  }
+  #szolgaltatasaim .container h2{
+    text-align: center;
+    margin-right: 110px;
+  }
+  #main #kozep .container{
+    margin: 0 100px;
+  }
+}
+
+@media (max-width:1000px){
+  #main #kozep .container{
+    width: 800px;
+  }
+  .container{
+    width: 600px;
+  }
+  .page-container{
+    max-width: 600px;
+  }
+
+  nav{
+    margin-right: 0px;
+    margin-top: 25px;
+  }
+
+  nav ul li{
+    display: none;
+    float: none;
+  }
+  .mobile-menu-button{
+    display: block;
+    margin-bottom: 30px;
+  }
+  #mobile-menu{
+    display: block;
+    margin-top: 5px;
+    margin-right: 100px;
+  }
+  nav ul li{
+    margin: 30px 0;
+  }
+  #nagykep p{
+    font-size: 25px;
+    text-align: center;
+  }
+  #nagykep .doboz{
+    width: 400px;
+  }
+  #elonyeim{
+    width: 400px;
+    margin: auto;
+  }
+  #elonyeim .container{
+    width: 400px;
+  }
+  #main{
+    width: 100%;
+  }
+  #nagykep{
+    height: 300px;
+    width: 800px;
+    margin-left: auto;
+  }
+  #elonyeim img{
+    width: 60px;
+  }
+  #szolgaltatasaim .container .kerteshazak, #szolgaltatasaim .container .panelhazak{
+    float: none;
+    margin: auto;
+  }
+  #szolgaltatasaim .container{
+    margin: auto;
+  }
+  #call-to-action p.felhivas, #call-to-action .gomb a{
+    float: center;
+    align-items: center;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #bemutatkozokep{
+    width: 300px;
+  }
+  #szolgaltatasaim .container {
+    width: 400px;
+  }
+}
+@media(max-width:850px){
+  #main #kozep .container{
+    width: 700px;
+  }
+  #bemutatkozokep{
+    width: 200px;
+  }
+}
+@media(max-width:790px){
+  #main #kozep .container{
+    width: 600px;
+  }
+}
+@media(max-width:600px){
+  #main #kozep .container{
+    width: 550px;
+  }
+}
